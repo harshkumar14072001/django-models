@@ -1,0 +1,12 @@
+<html>
+<head></head>
+<body>
+<p>Hello guys</p>
+{% for i  in info %}
+{{i}}<br>
+{% endfor %}
+<!--<a href='/nextpage/'>lets go to other</a>--->
+<a href="{% url 'nextpages' %}">lets go to other</a>
+
+</body>
+</html>
